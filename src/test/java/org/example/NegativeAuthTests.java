@@ -1,8 +1,6 @@
 package org.example;
 
-import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
-import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.restassured.RestAssured;

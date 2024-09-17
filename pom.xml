@@ -32,12 +32,6 @@
         </dependency>
 
         <!-- Allure TestNG (для отчетности) -->
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>2.20.1</version>
-            <scope>test</scope>
-        </dependency>
 
         <dependency>
             <groupId>org.json</groupId>
