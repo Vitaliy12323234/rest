@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dace18e8-a727-468b-a012-024b33dcda1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/012e7d67-4946-42bb-94d1-2bcbaed657de-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/049bf20d-380e-44fd-bbd6-a5f3afe6ed31-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0f0177ec-e476-444e-811d-558750c2fb8c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1b646bf1-b317-42a7-b92a-7191642f5208-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d2fcc6d-689f-4316-9642-98bd9c841122-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/205c3e16-05a8-4372-a394-f7141da7a79f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21255d4b-2546-4922-b85a-3be22e7b6545-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/22b669be-ab5a-4b4f-8d47-27ac8f9ced32-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/25bd29b1-bde6-4bf5-8ad9-a30cb0363f7b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/26a03320-cbff-4eb4-a4c5-fd614999f9e8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2f6c9264-0d15-496c-aabe-6a7e402c2e98-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/32540ef0-6d89-48b8-9dd4-9c9d96eb35ec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/32e2b52a-7ff4-4f0e-babf-bd5f4175ad8b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/335d1584-2d23-4f02-81c5-6cab688bd665-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/34c060c0-f769-4a4c-8ab5-5488565ba6b5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/36ed583e-6392-405f-89e2-2563d2aaaf7a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/396cd7da-2d80-43c0-b24c-3afe5a9ae758-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3fce1582-b1ed-49c9-b8df-db504b5a35a6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/41209a73-5cab-45dd-b882-c48d8a88279d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/459a6637-5656-4be9-9fd7-6742898f43a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/493b065e-01ef-4a07-a3d9-0f8fd9052cf8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4a6c043e-0f24-42fe-9842-49c9374123ba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5291186d-89ce-4cfc-8d7c-366161695b54-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/553bd191-3fd1-4f93-bcbf-53006698a563-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/55efa0a4-8ead-4ed6-ac2e-d725f5a7456c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/652c4d75-ca47-4ff5-897d-e2ee6b677b2f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6b080837-d331-4f33-80d4-84547397af4a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/705c3a6f-8117-45c5-b4d1-790407aa8f40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/79e0d4d6-b9ea-4512-aac4-06ee36775c23-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7a24a554-c9e0-4805-a69d-b0c5749c6d2e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8173a894-a054-4e46-bcd8-c6aa6735cdf1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8403cad3-cef2-426d-9f52-3695b8dbadae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/87dc9d6d-4c6c-490b-8ca8-74dc8d07f86b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/95c2c38e-0144-4364-b1fb-248db55e6b89-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9619f917-7529-4e68-9f04-06ab996cb5da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9cb6a066-0b4c-4abf-8a79-d14828818e8b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a0554b04-b959-4d71-8f80-3af6ca6023f8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a1a1e4c4-dc5f-45a2-8906-54041550cb76-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3193efa-a53a-4794-83a5-0ceba40cb214-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/abda8666-4164-4de8-b136-de496442a6f1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b224a4cd-1421-46a2-b2eb-ecd4ad5cd9bb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b7f0f144-fcb7-467a-9c97-c009ca1d71fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c12d59a4-2475-4ede-8ffb-96538848db10-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c2851475-6e6f-4d80-9fca-50907871e489-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d2696ae6-1ff2-44a9-acb5-04f10b6cc097-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d4f3e347-b37a-4fec-91f8-c1e51e28bfab-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d85fd80d-5a27-4333-843a-33b5a9a53f93-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d9aec818-38cd-4426-9714-a85971d934fd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9e1ceba-0350-45d7-b4e6-5773f49e0eed-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eaffdabd-4905-4902-8b96-ea9d69cc50f7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ecf98ea0-ae04-44d4-8c25-2bd18e20233d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f1520b40-c9f1-4c49-9a5d-9c2e7a8fa06f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f1618102-44e8-4c6e-bd7c-d76da684fd84-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f196ac88-aad1-4079-962d-4eb303d4e41b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f97c31db-9b0d-4f61-8dda-c5a237ccdac1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/EndPoints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/TestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/AuthTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/NegativeAuthTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AuthTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2m0zGkjkyLbStPWGQR89fdWEB5u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AuthTests.executor": "Run",
+    "TestNG.AuthTests.testGetUserInfo.executor": "Run",
+    "TestNG.AuthTests.testUserLoginSuccess.executor": "Run",
+    "TestNG.NegativeAuthTests.executor": "Run",
+    "TestNG.NegativeAuthTests.testUpdatePostWithNonExistentId.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vitaliy/IdeaProjects/rest",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AuthTests.testGetUserInfo">
+    <configuration name="AuthTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTests.testGetUserInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthTests" />
+      <option name="METHOD_NAME" value="testGetUserInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTests.testUserLoginSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthTests" />
+      <option name="METHOD_NAME" value="testUserLoginSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeAuthTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NegativeAuthTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeAuthTests.testUpdatePostWithNonExistentId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="REST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NegativeAuthTests" />
+      <option name="METHOD_NAME" value="testUpdatePostWithNonExistentId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AuthTests.testGetUserInfo" />
+        <item itemvalue="TestNG.AuthTests.testUserLoginSuccess" />
+        <item itemvalue="TestNG.NegativeAuthTests" />
+        <item itemvalue="TestNG.AuthTests" />
+        <item itemvalue="TestNG.NegativeAuthTests.testUpdatePostWithNonExistentId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dace18e8-a727-468b-a012-024b33dcda1d" name="Changes" comment="" />
+      <created>1726228187345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726228187345</updated>
+    </task>
+    <servers />
+  </component>
+</project>

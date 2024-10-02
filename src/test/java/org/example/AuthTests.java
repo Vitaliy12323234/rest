@@ -1,5 +1,10 @@
 package org.example;
 
+
+import io.restassured.filter.log.LogDetail;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
+
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
 import io.qameta.allure.Epic;
@@ -9,7 +14,12 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.File;
+
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
 @Epic("Управление пользователями и новостями")
 public class AuthTests {
@@ -25,6 +35,7 @@ public class AuthTests {
         testData.testUserPassword = "password123";
         loginUser();
     }
+
     @Test
     @Feature("Авторизация пользователя")
     public void testUserLoginSuccess() {
@@ -35,19 +46,30 @@ public class AuthTests {
                 .body("{\"email\":\"" + testData.testUserEmail + "\",\"password\":\"" + testData.testUserPassword + "\"}")
                 .when()
                 .post();
+        assertThat(response.statusCode(), equalTo(200));
+
         Assert.assertEquals(response.statusCode(), 200, "Status code 200");
+
     }
+
     @Test
     @Feature("Получение информации о пользователе")
     public void testGetUserInfo() {
+        ResponseLoggingFilter responseLoggingFilter = new ResponseLoggingFilter(LogDetail.BODY);
+        RequestLoggingFilter requestLoggingFilter = new RequestLoggingFilter(LogDetail.HEADERS);
+
+
         Response response = RestAssured.given()
+                .filters(requestLoggingFilter, responseLoggingFilter)
                 .baseUri(endPoints.baseUrl)
                 .basePath(endPoints.whoAmI)
                 .header("Authorization", "Bearer " + testData.accessToken)
+                .filter(new MyFilter())
                 .when()
                 .get();
         Assert.assertEquals(response.statusCode(), 200, "Status code 200");
     }
+
     @Test
     @Feature("Изменение пользователя")
     public void testUpdateUserInfo() {
@@ -62,6 +84,7 @@ public class AuthTests {
 
         Assert.assertEquals(response.statusCode(), 200, "Status code 200");
     }
+
     @Test
     @Feature("Создание поста")
     public void testCreatePost() {
@@ -85,6 +108,7 @@ public class AuthTests {
         testData.postId = response.jsonPath().getString("id");
         Assert.assertNotNull(testData.postId, "Post ID is null");
     }
+
     @Test
     @Feature("Обновление поста")
     public void testUpdatePost() {
@@ -107,6 +131,7 @@ public class AuthTests {
         Response response = request.when().patch();
         Assert.assertEquals(response.statusCode(), 200, "Status code 200 ");
     }
+
     @Test
     @Feature("Удаление поста")
     public void testDeletePost() {
@@ -119,6 +144,7 @@ public class AuthTests {
                 .delete();
         Assert.assertEquals(response.statusCode(), 200, "Status code 200 ");
     }
+
     @Test
     @Feature("Создание комментария")
     public void testCreateComment() {
@@ -140,6 +166,7 @@ public class AuthTests {
         Assert.assertNotNull(testData.commentId, "Comment ID is null");
         Assert.assertEquals(response.jsonPath().getString("text"), commentContent, "Comment");
     }
+
     @Test
     @Feature("Обновление комментария")
     public void testUpdateComment() {
@@ -156,6 +183,7 @@ public class AuthTests {
         Assert.assertEquals(response.statusCode(), 200, "Status code 200");
         Assert.assertEquals(response.jsonPath().getString("text"), updatedContent, "AComment");
     }
+
     @Test
     @Feature("Удаление комментария")
     public void testDeleteComment() {
@@ -168,6 +196,7 @@ public class AuthTests {
                 .delete();
         Assert.assertEquals(response.statusCode(), 200, "Status code 200");
     }
+
     private void loginUser() {
         Response response = RestAssured.given()
                 .baseUri(endPoints.baseUrl)
