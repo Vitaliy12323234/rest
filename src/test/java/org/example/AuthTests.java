@@ -48,7 +48,7 @@ public class AuthTests {
                 .post();
         assertThat(response.statusCode(), equalTo(200));
 
-        Assert.assertEquals(response.statusCode(), 200, "Status code 200");
+       // Assert.assertEquals(response.statusCode(), 200, "Status code 200");
 
     }
 
